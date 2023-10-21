@@ -1,0 +1,69 @@
+/* Add this CSS to your HTML or an external CSS file */
+
+/* Center the entire content */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Style the form container */
+form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Style the password input */
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style the password strength indicator */
+#password-strength {
+    margin-top: 10px;
+    font-weight: bold;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-align: center;
+    transition: background-color 0.5s;
+}
+
+#password-strength span {
+    padding: 5px 10px;
+}
+
+/* Define styles for different strength levels */
+#password-strength span {
+    
+    color: white;
+}
+
+
+
+#password-strength span[style*="orange"] {
+    background-color: orange;
+}
+
+#password-strength span[style*="yellow"] {
+    background-color: yellow;
+}
+
+#password-strength span[style*="lightgreen"] {
+    background-color: lightgreen;
+}
+
+#password-strength span[style*="green"] {
+    background-color: green;
+    color: white;
+}
+
+/* You can further customize the styles as needed */
